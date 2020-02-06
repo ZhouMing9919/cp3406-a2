@@ -1,0 +1,10 @@
+<resources>
+    <color name="colorPrimary">#104166</color>
+    <color name="colorPrimaryDark">#032036</color>
+    <color name="colorAccent">#666666</color>
+    <color name="colorSecondary">#FF0000</color>
+    <color name="colorSecondaryDark">#4C2B42</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextDark">#999999</color>
+    <color name="colorTextInvert">#333333</color>
+</resources>

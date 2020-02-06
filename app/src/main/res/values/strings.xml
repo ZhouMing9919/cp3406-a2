@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Number Bumper</string>
+
+    <string name="settings">Settings</string>
+    <string name="scores">Scores</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="unknown">Unknown</string>
+    <string name="background_music">Background Music</string>
+    <string name="retry_question">Retry Question</string>
+
+    <string name="level_addition">Addition</string>
+    <string name="level_subtraction">Subtraction</string>
+    <string name="level_multiplication">Multiplication</string>
+    <string name="level_division">Division</string>
+    <string name="level_exponentiation">Exponentiation</string>
+
+    <string name="difficulty_easiest">Easiest</string>
+    <string name="difficulty_normal">Normal</string>
+    <string name="difficulty_hardest">Hardest</string>
+
+    <string name="game_start_message">Use %s (%s) to find the answer!</string>
+    <string name="game_questions_completed">%s question %d of %d:</string>
+    <string name="game_summary">So, how did I go?</string>
+    <string name="game_questions_correct">You got %d of %d questions correct!</string>
+    <string name="game_retries_left">Only %d of %d retries left!</string>
+    <string name="game_retries_non">No more retries left!</string>
+
+    <string name="twitter_address">https://twitter.com/FornaxTech/</string>
+    <string name="twitter_consumer_key">ZtcvMLAi4PaStOHM8dQjoD5pb</string>
+    <string name="twitter_consumer_secret">NbMAjLMdz70ecxoobOsGtughzLmFXzYZz5q7bAmq17Gm2HjZ9S</string>
+    <string name="twitter_access_token">1049256850732896257-Q7qru7YsnoX684PtF2kzgotd3LYzqc</string>
+    <string name="twitter_access_secret">aEXfQdooAvB0kuLbDcTpAwQoiVrfnJ1x7KExVcRLtqer4</string>
+
+    <string name="score_tweet_message">%s: Someone just completed the %s exercise on the %s difficulty!</string>
+    <string name="score_cannot_tweet">Darn! We could not tweet your achievement.</string>
+    <string name="score_has_tweeted">We\'ve just tweeted your achievement!</string>
+    <string name="visit_our_twitter">Visit our Twitter Account</string>
+
+</resources>

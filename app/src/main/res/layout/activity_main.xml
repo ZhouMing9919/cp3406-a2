@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow style="@style/PlayButtonHolder">
+            <ImageButton
+                android:id="@+id/playButton1"
+                style="@style/PlayButton"
+                android:contentDescription="@string/level_addition"
+                app:srcCompat="@drawable/avatar1" />
+            <TextView
+                style="@style/NormalText"
+                android:text="@string/level_addition" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                style="@style/HorizontalRule"
+                android:layout_span="3" />
+        </TableRow>
+
+        <TableRow style="@style/PlayButtonHolder">
+            <ImageButton
+                android:id="@+id/playButton2"
+                style="@style/PlayButton"
+                app:srcCompat="@drawable/avatar2"
+                android:contentDescription="@string/level_subtraction" />
+            <TextView
+                style="@style/NormalText"
+                android:text="@string/level_subtraction" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                style="@style/HorizontalRule"
+                android:layout_span="3" />
+        </TableRow>
+
+        <TableRow style="@style/PlayButtonHolder">
+            <ImageButton
+                android:id="@+id/playButton3"
+                style="@style/PlayButton"
+                app:srcCompat="@drawable/avatar3"
+                android:contentDescription="@string/level_multiplication" />
+            <TextView
+                style="@style/NormalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level_multiplication" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                style="@style/HorizontalRule"
+                android:layout_span="3" />
+        </TableRow>
+
+        <TableRow style="@style/PlayButtonHolder">
+            <ImageButton
+                android:id="@+id/playButton4"
+                style="@style/PlayButton"
+                app:srcCompat="@drawable/avatar4"
+                android:contentDescription="@string/level_division" />
+            <TextView
+                style="@style/NormalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level_division" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                style="@style/HorizontalRule"
+                android:layout_span="3" />
+        </TableRow>
+
+        <TableRow style="@style/PlayButtonHolder">
+            <ImageButton
+                android:id="@+id/playButton5"
+                style="@style/PlayButton"
+                app:srcCompat="@drawable/avatar5"
+                android:contentDescription="@string/level_exponentiation" />
+            <TextView
+                style="@style/NormalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level_exponentiation" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

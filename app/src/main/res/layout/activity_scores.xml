@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView />
+
+            <ImageView
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/difficulty_easiest" />
+
+            <ImageView
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/difficulty_normal" />
+
+            <ImageView
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/difficulty_hardest" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View style="@style/HorizontalRule" android:layout_span="4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/score_level_add"
+                style="@style/ScoreLevelText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/completion_0_0"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_0_1"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_0_2"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/score_level_sub"
+                style="@style/ScoreLevelText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/completion_1_0"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_1_1"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_1_2"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/score_level_mul"
+                style="@style/ScoreLevelText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/completion_2_0"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_2_1"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_2_2"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/score_level_div"
+                style="@style/ScoreLevelText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/completion_3_0"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_3_1"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_3_2"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/score_level_exp"
+                style="@style/ScoreLevelText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/completion_4_0"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_4_1"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+            <ImageView
+                android:id="@+id/completion_4_2"
+                style="@style/CompletionImage"
+                app:srcCompat="@drawable/incomplete" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

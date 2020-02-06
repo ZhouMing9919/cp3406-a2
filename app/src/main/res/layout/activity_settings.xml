@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <TextView
+        style="@style/HeadingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/difficulty"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:id="@+id/difficulty_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/difficulty_input_easiest"
+            style="@style/DifficultyButton"
+            android:layout_weight="1"
+            android:button="@drawable/difficulty_easiest"
+            android:text="@string/difficulty_easiest" />
+
+        <RadioButton
+            android:id="@+id/difficulty_input_normal"
+            style="@style/DifficultyButton"
+            android:layout_weight="1"
+            android:button="@drawable/difficulty_normal"
+            android:text="@string/difficulty_normal" />
+
+        <RadioButton
+            android:id="@+id/difficulty_input_hardest"
+            style="@style/DifficultyButton"
+            android:layout_weight="1"
+            android:button="@drawable/difficulty_hardest"
+            android:text="@string/difficulty_hardest" />
+
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <!--
+    <fragment
+        android:id="@+id/question_answer_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="jcu.cp3406.numberbumper.QuestionAnswerFragment"
+        tools:layout="@layout/fragment_question_answer"/>
+    -->
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/HeadingText"/>
+
+    <TextView
+        android:id="@+id/answer"
+        style="@style/AnswerBubble" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/TimerBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="0"
+        android:indeterminate="false"/>
+
+    <!--
+    <fragment
+        android:id="@+id/question_entries_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="jcu.cp3406.numberbumper.QuestionEntriesFragment"
+        tools:layout="@layout/fragment_question_entries"/>
+    -->
+
+    <TableLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" />
+
+    <TextView
+        android:id="@+id/formula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/FormulaText" />
+
+</LinearLayout>

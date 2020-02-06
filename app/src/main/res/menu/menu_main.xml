@@ -1,0 +1,23 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings_button"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/scores_button"
+        android:icon="@drawable/scores_icon"
+        android:title="@string/scores"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/music_toggle_item"
+        android:title="@string/background_music"
+        app:actionLayout="@layout/bar_main"
+        app:showAsAction="ifRoom" />
+
+</menu>
